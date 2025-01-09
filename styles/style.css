@@ -45,7 +45,17 @@
   font-weight: 400;
   line-height: 30px;
 }
-
+.primary-btn {
+  background: var(--primary-color);
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 16px 32px;
+  outline: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
 .secondary-btn {
   font-size: 20px;
   font-weight: 700;
@@ -54,6 +64,11 @@
   outline: none;
   cursor: pointer;
   color: white;
+}
+
+.section-bg-shadow {
+  background: linear-gradient(180deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0));
+  border-radius: 16px;
 }
 
 /* hero styles */
@@ -152,4 +167,29 @@
 
 .btn-container {
   margin: 48px 0 0 32px;
+}
+
+/* enroll styles */
+
+.enroll-data-time-section .enroll-content {
+  height: 482px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.enroll-content .enroll-time {
+  font-size: 32px;
+  font-weight: 500;
+  color: #070211;
+}
+
+.enroll-content .enroll-time .enroll-title {
+  color: var(--primary-color);
+}
+
+.enroll-content button {
+  margin-top: 48px;
 }
